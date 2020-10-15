@@ -16,5 +16,6 @@ try:
    }
 
    result = client.send(payment_data)
+   print(result)
 except:
    print('Operation failed')
